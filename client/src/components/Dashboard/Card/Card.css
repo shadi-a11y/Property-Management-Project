@@ -1,0 +1,62 @@
+.CompactCard {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    border-radius: 0.7rem;
+    color: white;
+    position: relative;
+}
+
+.radialBar {
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.CircularProgressbar{
+    width: 4rem;
+    overflow: visible;
+}
+
+.CircularProgressbar-path {
+    stroke: blue!important;
+    stroke-width: 12px!important;
+    filter: drop-shadow(2px 4px 6px blue);
+}
+
+.CircularProgressbar-trail {
+    display: none;
+}
+
+.CircularProgressbar-text {
+    fill: white!important;
+}
+
+.radialBar>span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.detail {
+    height: 80%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.detail>span:nth-child(2){
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.detail>span:nth-child(3){
+    font-size: 12px;
+}

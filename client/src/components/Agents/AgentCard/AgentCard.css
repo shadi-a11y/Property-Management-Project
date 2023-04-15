@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.AgentCard {
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #0A1121;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    transition: all 0.5s ease-out;
+}
+
+.AgentCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    cursor: pointer;
+}
+
+.AgentCard img {
+    width: 100%;
+    height: 50%;
+}
+
+.AgentCard .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.AgentCard .title-value {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.AgentCard .title-value .value {
+    width: fit-content;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#allProperties:hover, .value:hover {
+    text-decoration: underline;
+}
